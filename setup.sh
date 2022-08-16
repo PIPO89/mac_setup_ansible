@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 
 #Installing ansible collections
 ansible-galaxy collection install -r requirements/collections.yml -p galaxy --force
