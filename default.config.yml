@@ -1,0 +1,51 @@
+---
+# Variables for hombrew role in https://github.com/geerlingguy/ansible-role-homebrew #
+homebrew_installed_packages:
+  - autoconf
+  - bash-completion
+  - bat
+  - cowsay
+  - doxygen
+  - exa
+  - fzf
+  - git
+  - ghq
+  - go
+  - helm
+  - htop
+  - httpie
+  - jq
+  - keychain
+  - kubectl
+  - kubeseal
+  - lazydocker
+  - mcrypt
+  - nmap
+  - node
+  - nvm
+  - openfortivpn
+  - pyenv
+  - pyenv-virtualenv
+  - redis
+  - tmux
+  - wget
+  - yarn
+  - yq
+  - xz
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - discord
+  - docker
+  - gitkraken
+  - iterm2
+  - jetbrains-toolbox
+  - kitty
+  - postman
+  - stats
+  - visual-studio-code
+  - zoom

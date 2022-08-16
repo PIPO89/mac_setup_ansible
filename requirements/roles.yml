@@ -1,0 +1,5 @@
+---
+roles:
+  - name: elliotweiser.osx-command-line-tools
+    src: https://github.com/elliotweiser/ansible-osx-command-line-tools.git
+    scm: git

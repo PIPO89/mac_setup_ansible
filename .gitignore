@@ -1,0 +1,35 @@
+# File Extensions
+*.swo
+*.swp
+*.retry
+*.lock
+*.ps1
+**/*.pyc
+
+# Customs
+**/.molecule/
+**/.cache/
+**/__pycache__/
+**/.ropeproject
+projects/**
+galaxy/
+awx/context/**
+Pipfile
+ansible_powerstore.log
+files/kvm/**
+files/images/**
+test.yml
+test
+
+# Hidden files and folders
+.env
+.envrc
+.idea/
+.project
+.pydevproject
+.python-version
+.test/
+.vagrant
+.venv*
+.vs
+.vscode/

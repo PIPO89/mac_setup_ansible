@@ -1,0 +1,6 @@
+---
+collections:
+  - name: geerlingguy.mac
+    src: https://github.com/geerlingguy/ansible-collection-mac.git
+    scm: git
+    version: 2.0.0
